@@ -211,7 +211,7 @@ a{
 
 
 @media(max-width: 640px){
-    *{
+    * {
         margin: 0;
         padding: 0;
     }
@@ -224,8 +224,21 @@ a{
     }
 
     .card {
-        width: 400px;
+        width: 350px;
         display: flex;
         flex-direction: column;
+    }
+    .social_links {
+        padding: 20px;
+    }
+
+    .instagram {
+        padding: 10px;
+    }
+    .tg {
+        padding: 10px;
+    }
+    .navbar {
+        display: flex;
     }
 }
